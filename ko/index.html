@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mixlyzer | 트랙 분석 소프트웨어</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  
+  
+  
+
+  <header>
+    <div class="nav">
+      <a class="brand" href="#">
+        <span class="badge">Mx</span>
+        <div>Mixlyzer</div>
+      </a>
+      <nav>
+        
+          <a href="#features">기능</a>
+        
+          <a href="#workflow">워크플로우</a>
+        
+          <a href="#get-started">시작하기</a>
+        
+      </nav>
+      <a class="cta" href="https://github.com/hygn/Mixlyzer/releases">다운로드</a>
+    </div>
+  </header>
+
+  <main>
+    
+  <section class="hero">
+    <div>
+      
+      <h1>DJ를 위한 정밀 트랙 분석기.</h1>
+      <p>Mixlyzer는 트랙을 스캔하고 템포·키 변화를 감지하며, 매끄러운 점프를 위한 CUE 페어를 제안하고, 빠르고 정밀한 편집을 돕는 인터랙티브 에디터를 제공합니다.</p>
+      <div class="actions">
+        <a class="cta" href="#get-started">시작하기</a>
+        <a class="ghost" href="#features">구성 살펴보기</a>
+      </div>
+    </div>
+    <div class="card">
+      <h3 style="margin: 0 0 12px;">모든 디테일이 싱크 유지</h3>
+      <p style="margin: 0 0 12px; color: var(--muted);">정적/동적 비트그리드, 키 맵, JumpCUE 제안이 한 타임라인에 모여 빠르게 검수할 수 있습니다.</p>
+      <div class="metrics">
+        
+          <div class="metric">
+            <strong>동적 비트그리드</strong>
+            <span>BPM과 페이즈를 정밀 추적</span>
+          </div>
+        
+          <div class="metric">
+            <strong>키 모듈레이션 맵</strong>
+            <span>믹스 중에도 키 싱크 유지</span>
+          </div>
+        
+          <div class="metric">
+            <strong>JumpCUE 페어</strong>
+            <span>전/후방 점프를 위한 매끄러운 연결</span>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+  
+    <section class="hero-media-block">
+      <div class="hero-media">
+        
+        
+          
+        
+        <img src="../media/mixlyzer-hero.png" alt="Mixlyzer 인터페이스 미리보기">
+        <p class="hero-media-caption">동적 비트그리드와 키 맵이 있는 Mixlyzer 세션 예시.</p>
+      </div>
+    </section>
+  
+
+  <section id="features" class="section">
+    <h2>복잡한 트랙을 위한 기능</h2>
+    <p>장르를 막론하고 템포와 키 변화가 있는 트랙에서 안정적인 그리드가 필요할 때, 애니메이션 OST·동인음악·리듬게임·보컬로이드·VTuber 곡까지 염두에 두고 설계되었습니다.</p>
+    <div class="grid">
+      
+        <div class="card">
+          <div class="pill">정적 비트그리드 분석</div>
+          <h3>글로벌 BPM 빠르게 고정</h3>
+          <p>트랙의 글로벌 BPM과 페이즈를 감지해 안정적인 시작 그리드를 만듭니다.</p>
+        </div>
+      
+        <div class="card">
+          <div class="pill">동적 비트그리드 분석</div>
+          <h3>템포가 변하는 트랙 대응</h3>
+          <p>여러 템포 세그먼트로 나눠 BPM과 페이즈 변화를 정확히 표시합니다.</p>
+        </div>
+      
+        <div class="card">
+          <div class="pill">동적 키 분석</div>
+          <h3>키 모듈레이션 추적</h3>
+          <p>시간에 따른 키 변화를 추적해 조화로운 믹스를 유지합니다.</p>
+        </div>
+      
+        <div class="card">
+          <div class="pill">JumpCUE 분석</div>
+          <h3>점프에 최적화된 큐</h3>
+          <p>앞/뒤 점프를 위한 호환 CUE 페어를 찾아줍니다.</p>
+        </div>
+      
+        <div class="card">
+          <div class="pill">빠르고 인터랙티브한 편집</div>
+          <h3>DJ 속도에 맞춘 에디팅</h3>
+          <p>내장 인터랙티브 에디터로 비트그리드를 빠르고 효율적으로 다듬습니다.</p>
+        </div>
+      
+        <div class="card">
+          <div class="pill">익스포트</div>
+          <h3>다른 소프트웨어와 연동</h3>
+          <p>템포 세그먼트와 JumpCUE를 XML 익스포트와 JumpCUE 렌더링으로 라이브러리에 바로 내보냅니다.</p>
+        </div>
+      
+    </div>
+  </section>
+
+  <section id="workflow" class="section">
+    <h2>일반적인 워크플로우</h2>
+    <p>필요한 모든 과정은 드래그 앤 드롭으로 시작합니다.</p>
+    <div class="workflow">
+      
+        <div class="step">
+          <strong>1) 트랙 불러오기</strong>
+          <span>파일을 끌어다 놓거나 라이브러리 패널에서 선택합니다.</span>
+        </div>
+      
+        <div class="step">
+          <strong>2) 자동 분석</strong>
+          <span>템포 세그먼트, 키, JumpCUE 페어를 자동으로 감지합니다.</span>
+        </div>
+      
+        <div class="step">
+          <strong>3) 그리드 미세 조정</strong>
+          <span>BPM 조정, 세그먼트 이동, 특정 구간 재분석을 흐름을 깨지 않고 수행합니다.</span>
+        </div>
+      
+        <div class="step">
+          <strong>4) 큐 검토</strong>
+          <span>JumpCUE와 오버뷰에서 유지하거나 이름을 바꿀 큐를 검토합니다.</span>
+        </div>
+      
+        <div class="step">
+          <strong>5) 익스포트</strong>
+          <span>편집을 저장하고 XML이나 렌더링된 오디오 파일로 내보냅니다.</span>
+        </div>
+      
+    </div>
+  </section>
+
+  <section id="get-started" class="section card" style="display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); align-items: center;">
+    <div>
+      <div class="pill">시작하기</div>
+      <h2 style="margin: 0 0 10px;">원하는 방식으로 Mixlyzer 실행</h2>
+      <p style="margin: 0 0 12px;">개발 환경에서는 uv로, 바로 사용하려면 릴리스 빌드로 시작하세요.</p>
+      <div class="actions">
+        
+          <a class="cta" href="https://github.com/hygn/Mixlyzer" target="_blank" rel="noopener">레포 클론</a>
+        
+          <a class="cta" href="https://github.com/hygn/Mixlyzer/releases" target="_blank" rel="noopener">릴리스 다운로드</a>
+        
+      </div>
+    </div>
+    <div class="card" style="margin: 0;">
+      <h3 style="margin: 0 0 10px;">옵션 A - uv 사용 (개발자용)</h3>
+      <ol style="margin: 0 0 14px 16px; color: var(--muted); padding-left: 16px;">
+        
+          <li>uv 설치 (Python 3.12+).</li>
+        
+          <li>레포를 클론하고 폴더를 엽니다.</li>
+        
+          <li>uv sync로 의존성을 설치합니다.</li>
+        
+          <li>uv run python -m app.main 으로 실행합니다.</li>
+        
+      </ol>
+      <h3 style="margin: 0 0 10px;">옵션 B - 릴리스 바이너리 (일반 사용자용)</h3>
+      <ol style="margin: 0; color: var(--muted); padding-left: 16px;">
+        
+          <li>최신 빌드를 다운로드합니다.</li>
+        
+          <li>압축 해제 후 실행 파일을 시작합니다.</li>
+        
+          <li>뮤직 라이브러리 경로를 설정한 뒤 분석과 익스포트를 진행합니다.</li>
+        
+      </ol>
+    </div>
+  </section>
+
+  </main>
+
+  <button class="lang-trigger" type="button" data-open-lang>
+    <span class="lang-pill">언어</span>
+    <span class="lang-code">KO</span>
+  </button>
+
+  <div class="lang-modal" data-lang-modal hidden>
+    <div class="lang-backdrop" data-close-lang></div>
+    <div class="lang-dialog">
+      <div class="lang-header">
+        <div>
+          <div class="pill">언어</div>
+          <h3 class="lang-title">언어를 선택하세요</h3>
+          <p class="lang-description">다른 언어 버전으로 이동합니다.</p>
+        </div>
+        <button class="lang-close" type="button" data-close-lang aria-label="닫기">
+          ×
+        </button>
+      </div>
+      <div class="lang-list">
+        
+          <a class="lang-item" href="../en/index.html" aria-label="English">
+            <div class="lang-item-code">EN</div>
+            <div class="lang-item-name">English</div>
+            
+          </a>
+        
+          <a class="lang-item" href="../ja/index.html" aria-label="日本語">
+            <div class="lang-item-code">JA</div>
+            <div class="lang-item-name">日本語</div>
+            
+          </a>
+        
+          <a class="lang-item" href="./index.html" aria-label="한국어">
+            <div class="lang-item-code">KO</div>
+            <div class="lang-item-name">한국어</div>
+            
+              <span class="lang-current">현재</span>
+            
+          </a>
+        
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    
+  Mixlyzer - 트랙 분석 소프트웨어
+
+  </footer>
+
+  <script>
+    (() => {
+      const modal = document.querySelector("[data-lang-modal]");
+      const openBtn = document.querySelector("[data-open-lang]");
+      const closeEls = document.querySelectorAll("[data-close-lang]");
+
+      if (!modal || !openBtn) return;
+
+      const open = () => {
+        modal.hidden = false;
+        modal.classList.add("is-open");
+        document.body.style.overflow = "hidden";
+      };
+      const close = () => {
+        modal.classList.remove("is-open");
+        modal.hidden = true;
+        document.body.style.overflow = "";
+      };
+
+      openBtn.addEventListener("click", open);
+      closeEls.forEach((el) => el.addEventListener("click", close));
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) close();
+      });
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") close();
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mixlyzer | Track Analysis Software</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  
+  
+  
+
+  <header>
+    <div class="nav">
+      <a class="brand" href="#">
+        <span class="badge">Mx</span>
+        <div>Mixlyzer</div>
+      </a>
+      <nav>
+        
+          <a href="#features">Features</a>
+        
+          <a href="#workflow">Workflow</a>
+        
+          <a href="#get-started">Get started</a>
+        
+      </nav>
+      <a class="cta" href="https://github.com/hygn/Mixlyzer/releases">Download</a>
+    </div>
+  </header>
+
+  <main>
+    
+  <section class="hero">
+    <div>
+      
+      <h1>Track analyzer with precision, built for DJs.</h1>
+      <p>Mixlyzer scans your tracks, detects tempo and key changes, proposes CUE pairs for seamless jumps, and provides an interactive editor for fast, precise editing.</p>
+      <div class="actions">
+        <a class="cta" href="#get-started">Get started</a>
+        <a class="ghost" href="#features">See what is inside</a>
+      </div>
+    </div>
+    <div class="card">
+      <h3 style="margin: 0 0 12px;">Every detail stays in sync</h3>
+      <p style="margin: 0 0 12px; color: var(--muted);">Static and dynamic beatgrids, key maps, and JumpCUE suggestions live on a single, clean timeline for fast auditing.</p>
+      <div class="metrics">
+        
+          <div class="metric">
+            <strong>Dynamic Beatgrid</strong>
+            <span>Precisely tracks BPM and phase</span>
+          </div>
+        
+          <div class="metric">
+            <strong>Key Modulation Map</strong>
+            <span>Stay in key during mix</span>
+          </div>
+        
+          <div class="metric">
+            <strong>JumpCUE Pairs</strong>
+            <span>Seamless forward and backward jump ready</span>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+  
+    <section class="hero-media-block">
+      <div class="hero-media">
+        
+        
+          
+        
+        <img src="../media/mixlyzer-hero.png" alt="Mixlyzer interface preview">
+        <p class="hero-media-caption">Sample Mixlyzer session with dynamic beatgrid and key map.</p>
+      </div>
+    </section>
+  
+
+  <section id="features" class="section">
+    <h2>Features for complex tracks</h2>
+    <p>For DJs and producers who need steady grids through tempo and key changes in any genre, including Anime OST, doujin, rhythm game, Vocaloid, and VTuber tracks.</p>
+    <div class="grid">
+      
+        <div class="card">
+          <div class="pill">Static Beatgrid Analysis</div>
+          <h3>Lock the global BPM fast</h3>
+          <p>Detect a track&#39;s global BPM and phase to establish a reliable starting grid before you fine-tune.</p>
+        </div>
+      
+        <div class="card">
+          <div class="pill">Dynamic Beatgrid Analysis</div>
+          <h3>For tracks with dynamic BPM</h3>
+          <p>Split songs into multiple tempo segments so BPM and phase changes are mapped accurately across the track.</p>
+        </div>
+      
+        <div class="card">
+          <div class="pill">Dynamic Key Analysis</div>
+          <h3>Trace key modulations</h3>
+          <p>Track musical key changes over time, keeping harmonic mixes tight even when arrangements move.</p>
+        </div>
+      
+        <div class="card">
+          <div class="pill">JumpCUE Analysis</div>
+          <h3>Jump-ready cues</h3>
+          <p>Discover CUE pairs for seamless forward and backward jumps.</p>
+        </div>
+      
+        <div class="card">
+          <div class="pill">Fast, Interactive Editing</div>
+          <h3>Edit at DJ speed</h3>
+          <p>The built-in interactive editor makes polishing grids quick and efficient.</p>
+        </div>
+      
+        <div class="card">
+          <div class="pill">Export</div>
+          <h3>Collaborate with other software</h3>
+          <p>Export tempo segments and JumpCUE entries directly into your DJ software library via XML export and JumpCUE rendering.</p>
+        </div>
+      
+    </div>
+  </section>
+
+  <section id="workflow" class="section">
+    <h2>Typical workflow</h2>
+    <p>Everything you need is drag-and-drop.</p>
+    <div class="workflow">
+      
+        <div class="step">
+          <strong>1) Load a track</strong>
+          <span>Drag a file into Mixlyzer or pick one from the library pane.</span>
+        </div>
+      
+        <div class="step">
+          <strong>2) Let the analyzer work</strong>
+          <span>Tempo segments, keys, and JumpCUE pairs are detected automatically.</span>
+        </div>
+      
+        <div class="step">
+          <strong>3) Fine-tune the grid</strong>
+          <span>Adjust BPM, shift segments, or reanalyze specific sections without breaking flow.</span>
+        </div>
+      
+        <div class="step">
+          <strong>4) Review cues</strong>
+          <span>Audit JumpCUE and overview views to decide what to keep or rename.</span>
+        </div>
+      
+        <div class="step">
+          <strong>5) Export</strong>
+          <span>Save edits and export XML or rendered audio file.</span>
+        </div>
+      
+    </div>
+  </section>
+
+  <section id="get-started" class="section card" style="display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); align-items: center;">
+    <div>
+      <div class="pill">Get started</div>
+      <h2 style="margin: 0 0 10px;">Choose how you want to run Mixlyzer</h2>
+      <p style="margin: 0 0 12px;">Run via uv for the full development experience or grab a release build to get mixing right away.</p>
+      <div class="actions">
+        
+          <a class="cta" href="https://github.com/hygn/Mixlyzer" target="_blank" rel="noopener">Clone repository</a>
+        
+          <a class="cta" href="https://github.com/hygn/Mixlyzer/releases" target="_blank" rel="noopener">Download release</a>
+        
+      </div>
+    </div>
+    <div class="card" style="margin: 0;">
+      <h3 style="margin: 0 0 10px;">Option A - Using uv (For developer)</h3>
+      <ol style="margin: 0 0 14px 16px; color: var(--muted); padding-left: 16px;">
+        
+          <li>Install uv (Python 3.12+).</li>
+        
+          <li>Clone the repo and open the folder.</li>
+        
+          <li>Run uv sync to install dependencies.</li>
+        
+          <li>Launch with uv run python -m app.main.</li>
+        
+      </ol>
+      <h3 style="margin: 0 0 10px;">Option B - Released binary (For ordinary users)</h3>
+      <ol style="margin: 0; color: var(--muted); padding-left: 16px;">
+        
+          <li>Download the latest build.</li>
+        
+          <li>Extract and start the executable.</li>
+        
+          <li>Set your music library path, then analyze and export.</li>
+        
+      </ol>
+    </div>
+  </section>
+
+  </main>
+
+  <button class="lang-trigger" type="button" data-open-lang>
+    <span class="lang-pill">Language</span>
+    <span class="lang-code">EN</span>
+  </button>
+
+  <div class="lang-modal" data-lang-modal hidden>
+    <div class="lang-backdrop" data-close-lang></div>
+    <div class="lang-dialog">
+      <div class="lang-header">
+        <div>
+          <div class="pill">Languages</div>
+          <h3 class="lang-title">Choose your language</h3>
+          <p class="lang-description">Switch to another language version.</p>
+        </div>
+        <button class="lang-close" type="button" data-close-lang aria-label="Close">
+          ×
+        </button>
+      </div>
+      <div class="lang-list">
+        
+          <a class="lang-item" href="./index.html" aria-label="English">
+            <div class="lang-item-code">EN</div>
+            <div class="lang-item-name">English</div>
+            
+              <span class="lang-current">Current</span>
+            
+          </a>
+        
+          <a class="lang-item" href="../ja/index.html" aria-label="日本語">
+            <div class="lang-item-code">JA</div>
+            <div class="lang-item-name">日本語</div>
+            
+          </a>
+        
+          <a class="lang-item" href="../ko/index.html" aria-label="한국어">
+            <div class="lang-item-code">KO</div>
+            <div class="lang-item-name">한국어</div>
+            
+          </a>
+        
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    
+  Mixlyzer - Track analyzer with precision, built for DJs.
+
+  </footer>
+
+  <script>
+    (() => {
+      const modal = document.querySelector("[data-lang-modal]");
+      const openBtn = document.querySelector("[data-open-lang]");
+      const closeEls = document.querySelectorAll("[data-close-lang]");
+
+      if (!modal || !openBtn) return;
+
+      const open = () => {
+        modal.hidden = false;
+        modal.classList.add("is-open");
+        document.body.style.overflow = "hidden";
+      };
+      const close = () => {
+        modal.classList.remove("is-open");
+        modal.hidden = true;
+        document.body.style.overflow = "";
+      };
+
+      openBtn.addEventListener("click", open);
+      closeEls.forEach((el) => el.addEventListener("click", close));
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) close();
+      });
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") close();
+      });
+    })();
+  </script>
+</body>
+</html>
