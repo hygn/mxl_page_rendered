@@ -1,0 +1,17 @@
+<script>
+  (function () {
+    const lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+    const base = lang.split('-')[0];
+
+    const map = {
+      ko: 'ko',
+      en: 'en',
+      ja: 'ja'
+    };
+
+    const target = map[base] || map.en;
+    if (!location.pathname.endsWith(target)) {
+      location.replace(target);
+    }
+  })();
+</script>
